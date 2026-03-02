@@ -15,7 +15,7 @@ When I'm not coding, I'm probably at an airport spotting planes ✈️
 
 ## 💼 Previously
 
-**Software Engineer @ AuroPay** — 3.5 years building fintech products in Mumbai
+**Software Engineer @ AuroPay** - 3.5 years building fintech products in Mumbai
 
 - B2B payments platform handling real-money transactions
 - Banking kiosk applications (CDK/PBK/MFK) deployed across **Kotak Mahindra, Axis, and SBI**
@@ -42,13 +42,6 @@ When I'm not coding, I'm probably at an airport spotting planes ✈️
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
 
----
-
-## 🚀 Projects
-
-### 🎵 [VibeReact](https://github.com/Chinmay-Sakhare07/VibeReact) — [Live Demo](https://vibe-react-five.vercel.app)
-Was about to buy LED strips off TEMU. Built this instead. Your screen reacts to music in real time — Strobe, Disco, RGB, Rainbow modes powered by the Web Audio API.
-`React` `Web Audio API` `Beat Detection` `JavaScript`
 
 ---
 
@@ -64,10 +57,16 @@ Real-time café occupancy and customer behavior detection system built for MGEN 
 
 ---
 
+## 🚀 Projects
+
+### 🎵 [VibeReact](https://github.com/Chinmay-Sakhare07/VibeReact) - [Live Demo](https://vibe-react-five.vercel.app)
+Was about to buy LED strips off TEMU. Built this instead. Your screen reacts to music in real time - Strobe, Disco, RGB, Rainbow modes powered by the Web Audio API.
+`React` `Web Audio API` `Beat Detection` `JavaScript`
+
 ## 📫 Let's Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)][(https://www.linkedin.com/in/chinmaysakhare/)]
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sakhare.c@northeastern.edu)
 
 ---
 
