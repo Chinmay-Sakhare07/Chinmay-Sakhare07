@@ -82,7 +82,7 @@ hobbies:
         <img src="https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white"/>
         <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white"/>
       </p>
-      <a href="https://github.com/Chinmay-Sakhare07/Group13_Final_AED_Project_MediNexus_Hospital_management_system">Repo</a>
+      <a href="https://github.com/Chinmay-Sakhare07/Group13_Final_AED_Project_MediNexus_Hospital_management_system">Repo</a> · <a href="https://medinexushealth.netlify.app/">Live Demo</a>
     </td>
   </tr>
   <tr>
