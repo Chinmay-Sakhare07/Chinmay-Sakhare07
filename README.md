@@ -43,6 +43,7 @@ When I'm not coding, I'm probably at an airport spotting planes ✈️
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
 
 
+## 🚀 Projects
 ---
 
 ### 🏥 [MediNexus](https://github.com/Chinmay-Sakhare07/Group13_Final_AED_Project_MediNexus_Hospital_management_system)
@@ -56,8 +57,6 @@ Real-time café occupancy and customer behavior detection system built for MGEN 
 `Python` `YOLOv8` `OpenCV` `PyTorch` `Computer Vision`
 
 ---
-
-## 🚀 Projects
 
 ### 🎵 [VibeReact](https://github.com/Chinmay-Sakhare07/VibeReact) - [Live Demo](https://vibe-react-five.vercel.app)
 Was about to buy LED strips off TEMU. Built this instead. Your screen reacts to music in real time - Strobe, Disco, RGB, Rainbow modes powered by the Web Audio API.
