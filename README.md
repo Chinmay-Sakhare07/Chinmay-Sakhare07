@@ -1,9 +1,8 @@
 # Hey, I'm Chinmay 👋
 
-I'm a Software Engineer and MS Information Systems student at **Northeastern University** who builds things that are either genuinely useful, or just really fun to look at. Sometimes both.
+I'm a Software Engineer and MS Information Systems student at **Northeastern University** who builds things that are either genuinely useful or just really fun to look at. Sometimes both.
 
-When I'm not coding, I'm probably at an airport spotting planes ✈️ or convincing myself I need something from TEMU at 1am (spoiler: I don't — I just build it instead).
-
+When I'm not coding, I'm probably at an airport spotting planes ✈️
 ---
 
 ## 🎓 Currently
