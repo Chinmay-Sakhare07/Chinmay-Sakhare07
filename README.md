@@ -6,7 +6,7 @@
 
 ---
 
-Software engineer with **3.5 years in fintech** — building and shipping B2B payment platforms, banking kiosks, and real-money transaction systems at AuroPay, Mumbai. Now doing my **MS in Information Systems at Northeastern University** (2025–27) and open to Summer 2026 co-op roles in software engineering.
+Software engineer with **3.5+ years in fintech** - building and shipping B2B payment platforms, banking kiosks, and real-money transaction systems at AuroPay, Mumbai. Now doing my **MS in Information Systems at Northeastern University** (2025–27) and open to Summer/Fall 2026 co-op roles in software engineering, data, or AI.
 
 When I'm not at a keyboard, I'm tracking tail numbers at Logan ✈️ or coaching form at Marino Recreation Center 🏋️.
 
