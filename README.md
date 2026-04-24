@@ -18,7 +18,7 @@ When I'm not at a keyboard, I'm tracking tail numbers at Logan ✈️ or coachin
 name: Chinmay Sakhare
 location: Boston, MA
 education: MS Information Systems @ Northeastern University (2025–2027)
-looking_for: Summer 2026 Co-op — Software Engineering
+looking_for: Summer 2026 Co-op - Software Engineering
 previous_role: Software Engineer @ AuroPay, Mumbai (3.5 years)
 hobbies:
   - Plane spotting ✈️ (yes, I know the difference between a 737 MAX and a 737 NG)
@@ -32,9 +32,9 @@ hobbies:
 
 ### 📊 [LogBase](https://github.com/Chinmay-Sakhare07/Log_Analytics_System) · [Live Demo](https://loganalyticssystem.vercel.app)
 
-Distributed log analytics system built from scratch — the kind of thing Splunk and ELK Stack do, rebuilt to understand how it actually works. Full pipeline: a Python file tailer with exponential backoff and disk buffering, a FastAPI ingestion service writing to Astra DB (Cassandra) partitioned by service and date, hourly aggregates in PostgreSQL to keep stats queries cheap, a query API with cursor-based pagination, and a React dashboard with live tail, analytics charts, and a real-time log generator.
+Distributed log analytics system built from scratch - the kind of thing Splunk and ELK Stack do, rebuilt to understand how it actually works. Full pipeline: a Python file tailer with exponential backoff and disk buffering, a FastAPI ingestion service writing to Astra DB (Cassandra) partitioned by service and date, hourly aggregates in PostgreSQL to keep stats queries cheap, a query API with cursor-based pagination, and a React dashboard with live tail, analytics charts, and a real-time log generator.
 
-**Deployed entirely on free tiers** (Fly.io, Astra DB, Neon, Vercel) with rate limiting, CORS controls, and a GitHub Actions cron for daily data generation. Nine distinct deployment failures — port restrictions, SSL bundles, Fly.io sleep cycles — documented and resolved.
+**Deployed entirely on free tiers** (Fly.io, Astra DB, Neon, Vercel) with rate limiting, CORS controls, and a GitHub Actions cron for daily data generation. Nine distinct deployment failures - port restrictions, SSL bundles, Fly.io sleep cycles - documented and resolved.
 
 `FastAPI` `Python` `Cassandra (Astra DB)` `PostgreSQL` `React` `Fly.io` `Docker` `Prometheus`
 
@@ -42,7 +42,7 @@ Distributed log analytics system built from scratch — the kind of thing Splunk
 
 ### 🏥 [MediNexus](https://github.com/Chinmay-Sakhare07/Group13_Final_AED_Project_MediNexus_Hospital_management_system) · [Live Demo](https://medinexushealth.netlify.app)
 
-Full-stack hospital management platform — patient registration, doctor scheduling, appointment management, billing with insurance claims, lab test tracking, prescriptions, and pharmacy inventory. Built for the DMDD course at Northeastern.
+Full-stack hospital management platform - patient registration, doctor scheduling, appointment management, billing with insurance claims, lab test tracking, prescriptions, and pharmacy inventory. Built for the DMDD course at Northeastern.
 
 26-table normalized schema with 3 UDFs, 6 views, 1 audit trigger, 6 stored procedures, 54 performance indexes, and AES-256 column-level encryption on sensitive patient and insurance data. Deployed on free infrastructure: Oracle Cloud Always Free VM running the .NET API, Cloudflare Worker as an HTTPS proxy (bypassing Oracle's HTTP-only egress), Azure SQL Serverless for the database, Netlify for the frontend.
 
@@ -60,7 +60,7 @@ Real-time café occupancy and customer behavior tracker built in 4 hours at the 
 
 ### 🎵 [VibeReact](https://github.com/Chinmay-Sakhare07/VibeReact) · [Live Demo](https://vibe-react-five.vercel.app)
 
-Was about to buy LED strips off TEMU. Built this instead. Captures microphone audio in real time, runs beat detection on the bass frequency range (bottom 25% of FFT bins, 50ms debounce), and makes your entire screen flash and pulse with the music. Four modes: Strobe, Disco, RGB, Rainbow. No hardware required — just a browser and something playing loud enough for the mic to catch.
+Was about to buy LED strips off TEMU. Built this instead. Captures microphone audio in real time, runs beat detection on the bass frequency range (bottom 25% of FFT bins, 50ms debounce), and makes your entire screen flash and pulse with the music. Four modes: Strobe, Disco, RGB, Rainbow. No hardware required - just a browser and something playing loud enough for the mic to catch.
 
 `React 18` `Web Audio API` `AudioContext / AnalyserNode` `getUserMedia` `requestAnimationFrame`
 
@@ -68,7 +68,7 @@ Was about to buy LED strips off TEMU. Built this instead. Captures microphone au
 
 ### 🌐 [Portfolio](https://chinmaysakhare.netlify.app)
 
-Interactive portfolio built to feel like a product, not a template. Working terminal with 20+ commands, 4 hidden games (Snake, Tetris, Memory Match, Typing Speed Test), section-aware emoji cursor trails, scroll-triggered animations, and 10 color themes (5 light, 5 dark). Built entirely in React with zero CSS frameworks — every style is inline, every color flows from a single theme object in `themes.js`.
+Interactive portfolio built to feel like a product, not a template. Working terminal with 20+ commands, 4 hidden games (Snake, Tetris, Memory Match, Typing Speed Test), section-aware emoji cursor trails, scroll-triggered animations, and 10 color themes (5 light, 5 dark). Built entirely in React with zero CSS frameworks - every style is inline, every color flows from a single theme object in `themes.js`.
 
 Hidden features: type `snake`, `tetris`, `memory`, or `typing` in the terminal. Try the Konami code. Run `sudo hire chinmay`.
 
@@ -78,7 +78,7 @@ Hidden features: type `snake`, `tetris`, `memory`, or `typing` in the terminal. 
 
 ## 💼 Experience
 
-**Software Engineer — AuroPay** *(Mumbai, India · 3.5 years)*
+**Software Engineer - AuroPay** *(Mumbai, India · 3.5 years)*
 
 Built and maintained a B2B payments platform processing real-money transactions. Developed banking kiosk applications (CDK/PBK/MFK) deployed at Kotak Mahindra, Axis Bank, and SBI branches across India.
 
