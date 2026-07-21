@@ -1,12 +1,12 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Chinmay+%F0%9F%91%8B;Software+Engineer+%7C+MS+%40+Northeastern;I+build+things.+Then+deploy+them.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Chinmay+%F0%9F%91%8B;+Software+Engineer+%7C+MS+%40+Northeastern+;I+build+things.+Then+deploy+them.)](https://git.io/typing-svg)
 
 </div>
 
 ---
 
-I build software that can't afford to fail — nearly **four years** at **AuroPay (Aurionpro Payments)** in Mumbai, engineering the payment systems, APIs, and event-driven microservices behind **50,000+ daily transactions**. Now doing my **MS in Information Systems at Northeastern University** (2025–2027), going deeper on systems design, data engineering, and applied AI — and looking for a **Fall 2026 / Spring 2027 co-op** with a team that cares about getting things right.
+I build software that can't afford to fail - nearly **four years** at **AuroPay (Aurionpro Payments)** in Mumbai, engineering the payment systems, APIs, and event-driven microservices behind **50,000+ daily transactions**. Now doing my **MS in Information Systems at Northeastern University** (2025–2027), going deeper on systems design, data engineering, and applied AI - and looking for a **Fall 2026 / Spring 2027 co-op** with a team that cares about getting things right.
 
 When I'm not at a keyboard, you'll find me at the gym, tracking tail numbers at Logan ✈️, or on a Costco run.
 
@@ -18,12 +18,12 @@ When I'm not at a keyboard, you'll find me at the gym, tracking tail numbers at 
 name: Chinmay Sakhare
 location: Boston, MA
 education: MS Information Systems @ Northeastern University (2025–2027)
-looking_for: Fall 2026 / Spring 2027 Co-op — Software Engineering
+looking_for: Fall 2026 / Spring 2027 Co-op - Software Engineering
 previous_role: Software Engineer @ AuroPay (Aurionpro Payments), Mumbai · Dec 2021 – Aug 2025
 focus: Systems design, data engineering, applied AI
 hobbies:
   - Plane spotting ✈️ (yes, I know a 737 MAX from a 737 NG)
-  - Lifting — and coaching lifts — at Marino Rec
+  - Lifting - and coaching lifts - at Marino Rec
   - Building things I almost bought online
 ```
 
@@ -31,13 +31,13 @@ hobbies:
 
 ## 🚀 Projects
 
-*Live demos run on free tiers — the first load can take 30–60s to wake the server.*
+*Live demos run on free tiers - the first load can take 30–60s to wake the server.*
 
 ### 🎙️ [Duologue AI](https://github.com/Chinmay-Sakhare07/duologue-ai) · [Live Demo](https://duologue-ai.streamlit.app/)
 
 *Article / PDF / URL → two-host AI podcast · Jul 2026*
 
-Turns any article, PDF, URL, or topic into a two-host AI podcast, generated end to end on free infrastructure. Source text runs through an LLM-written script (Groq / Llama 3.3 70B in JSON mode), into text-to-speech, then gets stitched into a single MP3 and dropped into a browsable episode library — all in a deployed Streamlit app. Built for resilience: a fault-tolerant TTS fallback chain, graceful degradation, rate limiting, and a scheduled keep-alive for the database. A practical study in shipping on free tiers and adapting when hosts, rate limits, and unofficial APIs shift underneath you.
+Turns any article, PDF, URL, or topic into a two-host AI podcast, generated end to end on free infrastructure. Source text runs through an LLM-written script (Groq / Llama 3.3 70B in JSON mode), into text-to-speech, then gets stitched into a single MP3 and dropped into a browsable episode library - all in a deployed Streamlit app. Built for resilience: a fault-tolerant TTS fallback chain, graceful degradation, rate limiting, and a scheduled keep-alive for the database. A practical study in shipping on free tiers and adapting when hosts, rate limits, and unofficial APIs shift underneath you.
 
 `Python` `Streamlit` `Groq / Llama 3.3` `Edge TTS` `Supabase` `FFmpeg` `GitHub Actions`
 
@@ -47,9 +47,9 @@ Turns any article, PDF, URL, or topic into a two-host AI podcast, generated end 
 
 *Distributed log analytics platform · Mar – Apr 2026*
 
-Distributed log analytics system built from scratch — the kind of thing Splunk and ELK Stack do, rebuilt to understand how it actually works. Full pipeline: a Python file tailer with exponential backoff and disk buffering, a FastAPI ingestion service writing to Astra DB (Cassandra) partitioned by service and date, hourly aggregates in PostgreSQL to keep stats queries cheap, a query API with cursor-based pagination, and a React dashboard with live tail, analytics charts, and a real-time log generator.
+Distributed log analytics system built from scratch - the kind of thing Splunk and ELK Stack do, rebuilt to understand how it actually works. Full pipeline: a Python file tailer with exponential backoff and disk buffering, a FastAPI ingestion service writing to Astra DB (Cassandra) partitioned by service and date, hourly aggregates in PostgreSQL to keep stats queries cheap, a query API with cursor-based pagination, and a React dashboard with live tail, analytics charts, and a real-time log generator.
 
-Deployed entirely on free tiers (Fly.io, Astra DB, Neon, Vercel) with rate limiting, CORS controls, and a GitHub Actions cron for daily data generation. Nine distinct deployment failures — port restrictions, SSL bundles, Fly.io sleep cycles — documented and resolved.
+Deployed entirely on free tiers (Fly.io, Astra DB, Neon, Vercel) with rate limiting, CORS controls, and a GitHub Actions cron for daily data generation. Nine distinct deployment failures - port restrictions, SSL bundles, Fly.io sleep cycles - documented and resolved.
 
 `FastAPI` `Python` `Cassandra (Astra DB)` `PostgreSQL` `React` `Fly.io` `Docker` `Prometheus`
 
@@ -59,7 +59,7 @@ Deployed entirely on free tiers (Fly.io, Astra DB, Neon, Vercel) with rate limit
 
 *Hospital management system · Jan 2026*
 
-Full-stack hospital management platform — patient registration, doctor scheduling, appointment management, billing with insurance claims, lab test tracking, prescriptions, and pharmacy inventory. Built for the DMDD course at Northeastern.
+Full-stack hospital management platform - patient registration, doctor scheduling, appointment management, billing with insurance claims, lab test tracking, prescriptions, and pharmacy inventory. Built for the DMDD course at Northeastern.
 
 26-table normalized schema with 3 UDFs, 6 views, 1 audit trigger, 6 stored procedures, 54 performance indexes, and AES-256 column-level encryption on sensitive patient and insurance data. Deployed on free infrastructure: an Oracle Cloud Always Free VM running the .NET API, a Cloudflare Worker as an HTTPS proxy (bypassing Oracle's HTTP-only egress), Azure SQL Serverless for the database, and Netlify for the frontend.
 
@@ -71,7 +71,7 @@ Full-stack hospital management platform — patient registration, doctor schedul
 
 *Browser audio visualizer · Oct 2025*
 
-Was about to buy LED strips off TEMU. Built this instead. It captures microphone audio in real time, runs beat detection on the bass frequency range (bottom 25% of FFT bins, 50ms debounce), and makes your whole screen flash and pulse with the music. Four modes: Strobe, Disco, RGB, Rainbow. No hardware required — just a browser and something playing loud enough for the mic to catch.
+Was about to buy LED strips off TEMU. Built this instead. It captures microphone audio in real time, runs beat detection on the bass frequency range (bottom 25% of FFT bins, 50ms debounce), and makes your whole screen flash and pulse with the music. Four modes: Strobe, Disco, RGB, Rainbow. No hardware required - just a browser and something playing loud enough for the mic to catch.
 
 `React 18` `Web Audio API` `AudioContext / AnalyserNode` `getUserMedia` `requestAnimationFrame`
 
@@ -91,7 +91,7 @@ Real-time café occupancy and customer-behavior tracker built in 4 hours at the 
 
 *EEG signal processing · undergraduate thesis · Jun 2021*
 
-Undergraduate thesis — an EEG signal-processing system in MATLAB that detects epilepsy from brain signals. Savitzky-Golay filtering for noise reduction, Discrete Wavelet Transform for feature extraction, and an ANN for classification, reaching 80% accuracy across test subjects.
+Undergraduate thesis - an EEG signal-processing system in MATLAB that detects epilepsy from brain signals. Savitzky-Golay filtering for noise reduction, Discrete Wavelet Transform for feature extraction, and an ANN for classification, reaching 80% accuracy across test subjects.
 
 `MATLAB` `Machine Learning` `Signal Processing` `DWT` `ANN`
 
@@ -101,7 +101,7 @@ Undergraduate thesis — an EEG signal-processing system in MATLAB that detects 
 
 *Interactive developer portfolio*
 
-Built to feel like a product, not a template. A working terminal with 20+ commands, 4 hidden games (Snake, Tetris, Memory Match, Typing Speed Test), a bento-grid About section with animated counters, glassmorphism cards, section-aware emoji cursor trails, and 10 color themes (5 light, 5 dark). Built entirely in React with zero CSS frameworks — every style is inline, and every color flows from a single theme object in `themes.js`.
+Built to feel like a product, not a template. A working terminal with 20+ commands, 4 hidden games (Snake, Tetris, Memory Match, Typing Speed Test), a bento-grid About section with animated counters, glassmorphism cards, section-aware emoji cursor trails, and 10 color themes (5 light, 5 dark). Built entirely in React with zero CSS frameworks - every style is inline, and every color flows from a single theme object in `themes.js`.
 
 Hidden features: type `snake`, `tetris`, `memory`, or `typing` in the terminal. Try the Konami code. Run `sudo hire chinmay`.
 
@@ -111,20 +111,20 @@ Hidden features: type `snake`, `tetris`, `memory`, or `typing` in the terminal. 
 
 ## 💼 Experience
 
-**Software Engineer — Aurionpro Payments (AuroPay)** *(Mumbai, India · Dec 2021 – Aug 2025)*
+**Software Engineer - Aurionpro Payments (AuroPay)** *(Mumbai, India · Dec 2021 – Aug 2025)*
 
 Engineered secure, compliant, event-driven microservices for AuroPay's real-time payments platform, supporting high-volume transactions.
 
 - **Reconciliation engine:** architected a PostgreSQL-backed reconciliation pipeline processing 50,000+ daily transactions, cutting error rates by 90% and automating 60–80% of previously manual verification across the merchant payments lifecycle.
 - **API throughput:** optimized throughput by 40% by profiling .NET Core service layers and restructuring MySQL query execution plans, holding performance under peak loads of 50,000+ daily requests.
-- **Fraud & velocity engine:** built a rule engine over live transaction streams — a UN-watchlist blacklisting layer and a configurable velocity layer — catching 15% more anomalies.
+- **Fraud & velocity engine:** built a rule engine over live transaction streams - a UN-watchlist blacklisting layer and a configurable velocity layer - catching 15% more anomalies.
 - **Security & access:** implemented IAM-aligned RBAC with AES-256 column-level encryption across 200+ merchant accounts on a multi-tenant platform, in line with PCI DSS.
 - **Banking kiosks:** delivered CDK, PBK, and MFK kiosk applications in .NET MVC and SQL Server to Kotak Mahindra Bank, Axis Bank, and SBI across 500+ branches.
 - **Mentorship:** mentored 5+ junior engineers through code reviews, system-design walkthroughs, and incident retrospectives.
 
 `.NET Core` `MySQL` `AWS Serverless` `Angular` `.NET MVC` `SQL Server`
 
-**Fitness Consultant — Marino Recreation Center, Northeastern** *(Boston, MA · Sep 2025 – Present)*
+**Fitness Consultant - Marino Recreation Center, Northeastern** *(Boston, MA · Sep 2025 – Present)*
 
 Because building software is only half the fun. Coaching 50+ daily visitors on form, technique, and programming, and keeping a busy floor running smoothly.
 
@@ -132,11 +132,11 @@ Because building software is only half the fun. Coaching 50+ daily visitors on f
 
 ## 🎓 Education
 
-**MS in Information Systems — Northeastern University** *(Boston, MA · Sep 2025 – Aug 2027)*
+**MS in Information Systems - Northeastern University** *(Boston, MA · Sep 2025 – Aug 2027)*
 Application Engineering and Development · Data Management and Database Design · Data Warehousing and Business Intelligence · Data Science Engineering Methods and Tools
 
-**BE in Electronics Engineering — RAIT, University of Mumbai** *(Mumbai, India · Graduated Jun 2021)*
-Thesis: ML-based classification of neurological disorders from EEG signals — Savitzky-Golay filtering, DWT feature extraction, and ANN classifiers; 80% accuracy.
+**BE in Electronics Engineering - RAIT, University of Mumbai** *(Mumbai, India · Graduated Jun 2021)*
+Thesis: ML-based classification of neurological disorders from EEG signals - Savitzky-Golay filtering, DWT feature extraction, and ANN classifiers; 80% accuracy.
 
 ---
 
@@ -215,13 +215,13 @@ Thesis: ML-based classification of neurological disorders from EEG signals — S
 
 ## 📜 Certifications
 
-- **AWS Certified Cloud Practitioner** — Amazon Web Services (Jan 2024) · License `98Z8MJ1D5B1QQYCY`
-- **Enterprise Web Dev (.NET Core)** — Swabhav Techlabs (Dec 2021)
-- **Introduction to Java** — Coursera / LearnQuest (Jul 2021) · [Verify](https://coursera.org/verify/EMFSF56S7J2E)
-- **Programming for Everybody (Python)** — Coursera / U of Michigan (Jun 2020) · [Verify](https://coursera.org/verify/244ENWDYRM4F)
-- **Python Data Structures** — Coursera / U of Michigan (Jul 2020) · [Verify](https://coursera.org/verify/C8FQUSNS4D9T)
-- **Using Python to Access Web Data** — Coursera / U of Michigan (Aug 2020) · [Verify](https://coursera.org/verify/EQGHSCTACRW9)
-- **Responsive Websites (HTML5 & CSS3)** — Udemy (Aug 2020) · [Verify](https://ude.my/UC-27ed60f3-990b-45db-ba28-e425badd7e25)
+- **AWS Certified Cloud Practitioner** - Amazon Web Services (Jan 2024) · License `98Z8MJ1D5B1QQYCY`
+- **Enterprise Web Dev (.NET Core)** - Swabhav Techlabs (Dec 2021)
+- **Introduction to Java** - Coursera / LearnQuest (Jul 2021) · [Verify](https://coursera.org/verify/EMFSF56S7J2E)
+- **Programming for Everybody (Python)** - Coursera / U of Michigan (Jun 2020) · [Verify](https://coursera.org/verify/244ENWDYRM4F)
+- **Python Data Structures** - Coursera / U of Michigan (Jul 2020) · [Verify](https://coursera.org/verify/C8FQUSNS4D9T)
+- **Using Python to Access Web Data** - Coursera / U of Michigan (Aug 2020) · [Verify](https://coursera.org/verify/EQGHSCTACRW9)
+- **Responsive Websites (HTML5 & CSS3)** - Udemy (Aug 2020) · [Verify](https://ude.my/UC-27ed60f3-990b-45db-ba28-e425badd7e25)
 
 ---
 
